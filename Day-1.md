@@ -15,7 +15,7 @@
 
 * if 'col' is set change all cells of first column to zero
 
-# 2 Pascal's Triangle
+
 
 
 
