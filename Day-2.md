@@ -28,3 +28,13 @@ https://leetcode.com/problems/merge-intervals/
 * Iterate through the intervals arr
 * If second element of last element of 'ans' >= second element of interval arr then merge
 * Otherwise push into ans
+
+## Merge Sorted Array Without Extra Space
+https://leetcode.com/problems/merge-sorted-array/
+
+nums1 = [1,2,3,0,0,0] (last 3 zeros are padding)
+
+nums2 = [2,5,6]
+* Make nums1 to : [0,0,0,1,2,3]
+* Take appropraite pointers p1 and p2 for 2 arrays
+* Start Merging into nums1 starting with index 0
