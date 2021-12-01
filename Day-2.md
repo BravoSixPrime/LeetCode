@@ -21,3 +21,10 @@ https://leetcode.com/problems/rotate-image/
 * Take transpose of a matrix
 * Mirror the matrix
 
+## Merge Intervals
+https://leetcode.com/problems/merge-intervals/
+* Sort the 2D array by standard library function (it will sort by comparing the first element of array)
+* Push ther first cell of array int 'ans' array
+* Iterate through the intervals arr
+* If second element of last element of 'ans' >= second element of interval arr then merge
+* Otherwise push into ans
