@@ -1,4 +1,4 @@
-# 1. Set Matrix Zeroes
+## Set Matrix Zeroes
 <b> O(1) Solution : </b>
 
 * Iterate through all elements and set flags
