@@ -20,3 +20,12 @@ Traversing till collision
 * fast = fast->next->next
 * If they collide return true
 
+## Palindrome Linked List
+https://leetcode.com/problems/palindrome-linked-list/
+
+TC : O(n), SC:O(1)
+
+* Reverse the second half of the linked list
+* 2 markers(pointers) starting from first half and reversed second half
+* If value of 2 nodes is unequa at any point return false
+* return true;
