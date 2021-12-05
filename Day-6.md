@@ -41,4 +41,12 @@ TC : O(n), SC:O(1)
   * when slow and entry collide return entry
 * return NULL
 
+## Rotate List
+https://leetcode.com/problems/rotate-list/description/
+
+* Reverse entire List
+* Reverse first k%length elements 
+* Reverse remaining elements
+
+
 
