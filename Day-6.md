@@ -29,3 +29,16 @@ TC : O(n), SC:O(1)
 * 2 markers(pointers) starting from first half and reversed second half
 * If value of 2 nodes is unequa at any point return false
 * return true;
+
+## Linked List Cycle II
+https://leetcode.com/problems/linked-list-cycle-ii/
+
+TC : O(n), SC:O(1)
+
+* fast and slow pointers
+* when the collide
+  * start entry pointer from head and start slow pointer
+  * when slow and entry collide return entry
+* return NULL
+
+
