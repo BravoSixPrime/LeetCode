@@ -8,9 +8,9 @@ https://leetcode.com/problems/subsets-ii/
   * push temp into ans
   * for(i=j to nums.size() )
     
-    <b>if i==j || nums[i-1] !=nums[i]</b>
+     <b>if i==j || nums[i-1] !=nums[i]</b>
     
-    push nums[i] to temp
-    call the function for current state
-    pop from temp
+     push nums[i] to temp
+     call the function for current state
+     pop from temp
  
