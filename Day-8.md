@@ -30,4 +30,13 @@ https://practice.geeksforgeeks.org/problems/fractional-knapsack-1587115620/1
 * Sort the elements of array by value/weight ratio
 * Start picking from start to end till weight is complete
 
+## Coins Change
+https://practice.geeksforgeeks.org/problems/number-of-coins1824/1
 
+Using dp[V] : V is the amount for which coins are to be calculated
+* dp[0] = 0
+* For i=1->V
+  * For j in Coins available
+    * Calculate number of coins = dp[i-coin[j]]+1
+  * dp[i] = minimum coins value found through iteration of j
+* Return dp[V]
