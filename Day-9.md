@@ -14,3 +14,11 @@ https://leetcode.com/problems/subsets-ii/
      call the function for current state
      pop from temp
  
+## Combination Sum
+https://leetcode.com/problems/combination-sum/
+
+* Keep taking the same number till you get to answer or number greater than answer
+* If sum = target then push the temp array
+* Remove the last number and call function for given temp array
+* If you encounter incoming candidate lesser than the last element of the temp array skip it to avoid repetition
+
