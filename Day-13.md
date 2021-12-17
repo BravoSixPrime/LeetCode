@@ -38,3 +38,11 @@ Given nums1(subset of nums2) and nums2
 * Push current number to stack
 * Otherwise pop the top and push new element
 
+## Sort the Stack
+https://practice.geeksforgeeks.org/problems/sort-a-stack/1#
+
+* Keep the smaller element at the top
+* Inverse the array
+* Perform the procedure stack.size times
+
+
