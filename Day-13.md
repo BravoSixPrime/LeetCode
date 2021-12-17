@@ -1,4 +1,4 @@
-## Implement StackUsing Queue
+## Implement Stack Using Queue
 https://leetcode.com/problems/implement-stack-using-queues/
 
 **Using only one queue**
@@ -22,4 +22,19 @@ https://leetcode.com/problems/implement-queue-using-stacks/
 * pop
   * peek
   * remove top of op
+
+## Next Greater Element I
+https://leetcode.com/problems/next-greater-element-i/
+
+**O(N)** solution
+
+Given nums1(subset of nums2) and nums2
+
+* First find next greater for nums2
+* Use stack and array
+* Push last element of nums2
+* Iterate from second last element
+* If top of stack is greater than current element assign to array that maintains next greater
+* Push current number to stack
+* Otherwise pop the top and push new element
 
