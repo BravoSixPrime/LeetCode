@@ -37,3 +37,13 @@ https://leetcode.com/problems/rotting-oranges/
 * Update the time to minimum
 
 Finally Return Max time form time matrix
+
+## Online Stock span
+https://leetcode.com/problems/online-stock-span/
+
+* Keep a stack that maintains price and result
+* While top < price keep popping out
+* Insert new price with new result
+* return top result
+
+
