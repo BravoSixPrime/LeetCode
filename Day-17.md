@@ -18,3 +18,10 @@ Connect a thread from last element of the subtree to its root so you won't loose
 
 ## Top View
 * Same as Top View just don't overwrite on already mapped elements
+
+## Vertical Traversal
+https://practice.geeksforgeeks.org/problems/print-a-binary-tree-in-vertical-order/1
+
+* Similar to bottom view create a map to write elements for each level
+* Instead of overwriting append to the element (map should be of int and vector<int> )
+  
